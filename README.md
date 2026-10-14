@@ -23,3 +23,30 @@ We eliminated manual human configuration risks by engineering a declarative, mod
 🟢 **The Business Result - (The Commercial ROI)**
 The manual cloud dashboard clicking ceiling was permanently dismantled. On-shore data pipeline infrastructure deployment speeds scaled from days of manual staging down to a programmatic execution window, reducing technical misconfiguration risks to absolute zero. By switching to modular, encrypted infrastructure blueprints instead of un-audited manual environment creation, the maritime enterprise saves an estimated **$65,000 USD/year in compliance audits and system hardening overhead**, ensuring total alignment with international digital maritime safety regulations.
 
+
+
+
+## 🛠️ ON-SITE FIELD DEPLOYMENT GUIDE
+
+This modular infrastructure zone is engineered for automated, declarative multi-module environment setups using HashiCorp Terraform on-site.
+
+```bash
+# 1. Clone the master architecture blueprints onto your administrative console
+git clone https://github.com && cd maritime-cloud-coast-infrastructure/terraform
+
+# 2. Initialize the local multi-module infrastructure configurations
+terraform init
+
+# 3. Deploy the network perimeter and encrypted storage vaults programmatically
+terraform apply -auto-approve
+```
+
+## 🚨 DISASTER RECOVERY & FIELD TROUBLESHOOTING
+
+### Symptom: Network State Disalignment or Perimeter Configuration Drift
+If an external operator manually modifies system firewalls outside of source control templates, security layout bugs will happen.
+*   *Action:* Run the self-healing idempotency recovery line to automatically detect configuration changes, destroy un-audited paths, and restore your secure baseline instantly:
+```bash
+terraform apply -auto-approve
+```
+
