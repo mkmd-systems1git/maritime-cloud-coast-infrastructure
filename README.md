@@ -32,7 +32,7 @@ This modular infrastructure zone is engineered for automated, declarative multi-
 
 ```bash
 # 1. Clone the master architecture blueprints onto your administrative console
-git clone https://github.com && cd maritime-cloud-coast-infrastructure/terraform
+git clone https://github.com/mkmd-systems1git/maritime-cloud-coast-infrastructure && cd maritime-cloud-coast-infrastructure/terraform
 
 # 2. Initialize the local multi-module infrastructure configurations
 terraform init
